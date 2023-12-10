@@ -1,13 +1,12 @@
 # Modul6
 
 
-#Aplikasi Klasifikasi Gambar dengan Flask
+# Aplikasi Klasifikasi Gambar dengan Flask
 
+## Gambaran Umum
 Repositori ini berisi contoh sederhana implementasi model klasifikasi gambar menggunakan Flask. Model dilatih menggunakan Convolutional Neural Network (CNN) untuk mengklasifikasikan gambar ke dalam tiga kelas. Aplikasi web memungkinkan pengguna mengunggah gambar dan mendapatkan prediksi secara real-time.
 
-Struktur Proyek
-arduino
-Copy code
+## Struktur Proyek
 |- static
 |- templates
 |- app.py
