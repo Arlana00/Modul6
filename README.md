@@ -20,13 +20,13 @@ Pastikan untuk menginstal library yang dibutuhkan sebelum menjalankan aplikasi:
 pip install flask tensorflow
 ```
 
-##Pelatihan Model
+## Pelatihan Model
 Model klasifikasi gambar dilatih menggunakan CNN. Model disimpan sebagai model.h5. Sesuaikan jumlah unit keluaran di lapisan terakhir dan fungsi aktivasi sesuai dengan jumlah kelas.
 
-##Aplikasi Flask
+## Aplikasi Flask
 Aplikasi web Flask (app.py) berfungsi sebagai antarmuka untuk model klasifikasi gambar. Aplikasi menggunakan model yang disimpan untuk membuat prediksi pada gambar yang diunggah oleh pengguna.
 
-##Cara Menjalankan
+## Cara Menjalankan
 
 ```bash
 Copy code
