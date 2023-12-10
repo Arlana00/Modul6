@@ -9,7 +9,6 @@ Struktur Proyek
 arduino
 Copy code
 |- static
-   |- img
 |- templates
 |- app.py
 |- model.h5
