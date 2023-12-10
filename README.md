@@ -18,31 +18,18 @@ Repositori ini berisi contoh sederhana implementasi model klasifikasi gambar men
 Pastikan untuk menginstal library yang dibutuhkan sebelum menjalankan aplikasi:
 ```bash
 pip install flask tensorflow
+```
 
 ##Pelatihan Model
 Model klasifikasi gambar dilatih menggunakan CNN. Model disimpan sebagai model.h5. Sesuaikan jumlah unit keluaran di lapisan terakhir dan fungsi aktivasi sesuai dengan jumlah kelas.
 
-Aplikasi Flask
+##Aplikasi Flask
 Aplikasi web Flask (app.py) berfungsi sebagai antarmuka untuk model klasifikasi gambar. Aplikasi menggunakan model yang disimpan untuk membuat prediksi pada gambar yang diunggah oleh pengguna.
 
-Cara Menjalankan
-Clone repositori ini:
+##Cara Menjalankan
 
-bash
-Copy code
-git clone https://github.com/namaanda/image-classification-flask.git
-cd image-classification-flask
-Jalankan aplikasi Flask:
-
-bash
+```bash
 Copy code
 python app.py
 Buka browser dan akses http://127.0.0.1:5000/. Anda dapat mengunggah gambar dan mendapatkan prediksi.
-
-Penyesuaian Model
-Modifikasi arsitektur CNN dalam script pelatihan model sesuai dengan dataset dan kebutuhan klasifikasi Anda.
-Pastikan bahwa dataset telah disusun dengan benar dan script pelatihan dapat memuat data dengan benar.
-Penghargaan
-Proyek ini diinspirasi oleh kebutuhan akan aplikasi web sederhana untuk klasifikasi gambar.
-Script pelatihan model adalah contoh dasar, Anda mungkin perlu mengembangkannya untuk kasus penggunaan yang lebih kompleks.
-Silakan disesuaikan dan kembangkan proyek ini berdasarkan kebutuhan spesifik Anda!
+```
