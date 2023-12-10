@@ -13,13 +13,13 @@ Repositori ini berisi contoh sederhana implementasi model klasifikasi gambar men
 |- model.h5
 |- README.md
 
-Dependensi
-Pastikan untuk menginstal library yang dibutuhkan sebelum menjalankan aplikasi:
 
-bash
-Copy code
+## Dependensi
+Pastikan untuk menginstal library yang dibutuhkan sebelum menjalankan aplikasi:
+```bash
 pip install flask tensorflow
-Pelatihan Model
+
+##Pelatihan Model
 Model klasifikasi gambar dilatih menggunakan CNN. Model disimpan sebagai model.h5. Sesuaikan jumlah unit keluaran di lapisan terakhir dan fungsi aktivasi sesuai dengan jumlah kelas.
 
 Aplikasi Flask
