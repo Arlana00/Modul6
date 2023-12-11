@@ -20,7 +20,7 @@ pip install flask tensorflow
 ```
 
 ## Pelatihan Model
-Model klasifikasi gambar dilatih menggunakan CNN. Model disimpan sebagai model.h5. Sesuaikan jumlah unit keluaran di lapisan terakhir dan fungsi aktivasi sesuai dengan jumlah kelas.
+Model klasifikasi gambar dilatih menggunakan MobileNetV. Model disimpan sebagai model.h5. Sesuaikan jumlah unit keluaran di lapisan terakhir dan fungsi aktivasi sesuai dengan jumlah kelas.
 
 ## Aplikasi Flask
 Aplikasi web Flask (app.py) berfungsi sebagai antarmuka untuk model klasifikasi gambar. Aplikasi menggunakan model yang disimpan untuk membuat prediksi pada gambar yang diunggah oleh pengguna.
