@@ -38,10 +38,10 @@ def get_output():
 		img_path = "static/" + img.filename	
 		img.save(img_path)
 
-		p, prediction_time  = predict_label(img_path)
+		prediction, prediction_time  = predict_label(img_path)
 		
 		
-	return render_template("index.html", prediction = p,prediction_time=prediction_time,img_path = img_path)
+	return render_template("index.html", prediction = prediction, prediction_time=prediction_time,img_path = img_path)
 
 
 if __name__ =='__main__':
